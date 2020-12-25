@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BDCB56259596530024A715 /* weatherUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDCB55259596530024A715 /* weatherUIApp.swift */; };
+		A8BDCB58259596530024A715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDCB57259596530024A715 /* ContentView.swift */; };
+		A8BDCB5A259596580024A715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB59259596580024A715 /* Assets.xcassets */; };
+		A8BDCB5D259596580024A715 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB5C259596580024A715 /* Preview Assets.xcassets */; };
+		A8BDCB6E2595B2FE0024A715 /* Merriweather-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB662595B2FD0024A715 /* Merriweather-Black.ttf */; };
+		A8BDCB6F2595B2FE0024A715 /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB672595B2FD0024A715 /* Merriweather-Bold.ttf */; };
+		A8BDCB702595B2FE0024A715 /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB682595B2FD0024A715 /* Merriweather-Light.ttf */; };
+		A8BDCB712595B2FE0024A715 /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB692595B2FE0024A715 /* Merriweather-Italic.ttf */; };
+		A8BDCB722595B2FE0024A715 /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB6A2595B2FE0024A715 /* Merriweather-Regular.ttf */; };
+		A8BDCB732595B2FE0024A715 /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB6B2595B2FE0024A715 /* Merriweather-LightItalic.ttf */; };
+		A8BDCB742595B2FE0024A715 /* Merriweather-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB6C2595B2FE0024A715 /* Merriweather-BlackItalic.ttf */; };
+		A8BDCB752595B2FE0024A715 /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8BDCB6D2595B2FE0024A715 /* Merriweather-BoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8BDCB52259596530024A715 /* weatherUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BDCB55259596530024A715 /* weatherUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUIApp.swift; sourceTree = "<group>"; };
+		A8BDCB57259596530024A715 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A8BDCB59259596580024A715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BDCB5C259596580024A715 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8BDCB5E259596580024A715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BDCB662595B2FD0024A715 /* Merriweather-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.ttf"; sourceTree = "<group>"; };
+		A8BDCB672595B2FD0024A715 /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		A8BDCB682595B2FD0024A715 /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		A8BDCB692595B2FE0024A715 /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		A8BDCB6A2595B2FE0024A715 /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		A8BDCB6B2595B2FE0024A715 /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		A8BDCB6C2595B2FE0024A715 /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
+		A8BDCB6D2595B2FE0024A715 /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BDCB4F259596530024A715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BDCB49259596530024A715 = {
+			isa = PBXGroup;
+			children = (
+				A8BDCB54259596530024A715 /* weatherUI */,
+				A8BDCB53259596530024A715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BDCB53259596530024A715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDCB52259596530024A715 /* weatherUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BDCB54259596530024A715 /* weatherUI */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDCB652595B2F00024A715 /* Fonts */,
+				A8BDCB55259596530024A715 /* weatherUIApp.swift */,
+				A8BDCB57259596530024A715 /* ContentView.swift */,
+				A8BDCB59259596580024A715 /* Assets.xcassets */,
+				A8BDCB5E259596580024A715 /* Info.plist */,
+				A8BDCB5B259596580024A715 /* Preview Content */,
+			);
+			path = weatherUI;
+			sourceTree = "<group>";
+		};
+		A8BDCB5B259596580024A715 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDCB5C259596580024A715 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8BDCB652595B2F00024A715 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8BDCB662595B2FD0024A715 /* Merriweather-Black.ttf */,
+				A8BDCB6C2595B2FE0024A715 /* Merriweather-BlackItalic.ttf */,
+				A8BDCB672595B2FD0024A715 /* Merriweather-Bold.ttf */,
+				A8BDCB6D2595B2FE0024A715 /* Merriweather-BoldItalic.ttf */,
+				A8BDCB692595B2FE0024A715 /* Merriweather-Italic.ttf */,
+				A8BDCB682595B2FD0024A715 /* Merriweather-Light.ttf */,
+				A8BDCB6B2595B2FE0024A715 /* Merriweather-LightItalic.ttf */,
+				A8BDCB6A2595B2FE0024A715 /* Merriweather-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BDCB51259596530024A715 /* weatherUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BDCB61259596580024A715 /* Build configuration list for PBXNativeTarget "weatherUI" */;
+			buildPhases = (
+				A8BDCB4E259596530024A715 /* Sources */,
+				A8BDCB4F259596530024A715 /* Frameworks */,
+				A8BDCB50259596530024A715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weatherUI;
+			productName = weatherUI;
+			productReference = A8BDCB52259596530024A715 /* weatherUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BDCB4A259596530024A715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A8BDCB51259596530024A715 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A8BDCB4D259596530024A715 /* Build configuration list for PBXProject "weatherUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BDCB49259596530024A715;
+			productRefGroup = A8BDCB53259596530024A715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BDCB51259596530024A715 /* weatherUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BDCB50259596530024A715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDCB5D259596580024A715 /* Preview Assets.xcassets in Resources */,
+				A8BDCB742595B2FE0024A715 /* Merriweather-BlackItalic.ttf in Resources */,
+				A8BDCB752595B2FE0024A715 /* Merriweather-BoldItalic.ttf in Resources */,
+				A8BDCB712595B2FE0024A715 /* Merriweather-Italic.ttf in Resources */,
+				A8BDCB732595B2FE0024A715 /* Merriweather-LightItalic.ttf in Resources */,
+				A8BDCB5A259596580024A715 /* Assets.xcassets in Resources */,
+				A8BDCB6F2595B2FE0024A715 /* Merriweather-Bold.ttf in Resources */,
+				A8BDCB722595B2FE0024A715 /* Merriweather-Regular.ttf in Resources */,
+				A8BDCB6E2595B2FE0024A715 /* Merriweather-Black.ttf in Resources */,
+				A8BDCB702595B2FE0024A715 /* Merriweather-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BDCB4E259596530024A715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BDCB58259596530024A715 /* ContentView.swift in Sources */,
+				A8BDCB56259596530024A715 /* weatherUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8BDCB5F259596580024A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BDCB60259596580024A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8BDCB62259596580024A715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"weatherUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 39J3QLGDT8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = weatherUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaa.weatherUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8BDCB63259596580024A715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"weatherUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 39J3QLGDT8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = weatherUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaa.weatherUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BDCB4D259596530024A715 /* Build configuration list for PBXProject "weatherUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDCB5F259596580024A715 /* Debug */,
+				A8BDCB60259596580024A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BDCB61259596580024A715 /* Build configuration list for PBXNativeTarget "weatherUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BDCB62259596580024A715 /* Debug */,
+				A8BDCB63259596580024A715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BDCB4A259596530024A715 /* Project object */;
+}
